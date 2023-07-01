@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins" !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a6a6a6;
+  border-radius: 10px;
+  opacity: 0.2;
+}
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  user-select: none;
+}
+
+.css-1x4qqxo-MuiInputBase-root-MuiOutlinedInput-root {
+  border: none !important;
+}
+.ql-editor.ql-blank::before {
+  font-style: normal !important;
+}
+
+.desc .ql-editor {
+  min-height: 70px;
+}
+
+.content .ql-editor {
+  min-height: 150px;
+}
+
+.chapter-content {
+  line-break: anywhere !important;
+}
